@@ -1,0 +1,16 @@
+# -----------------------------------------------------
+# AUTOSTART
+# -----------------------------------------------------
+
+# Source SSH agent environment if it exists
+SSH_ENV="$HOME/.ssh/agent-environment"
+if [ -f "${SSH_ENV}" ]; then
+    . "${SSH_ENV}" > /dev/null
+fi
+
+# -----------------------------------------------------
+# Fastfetch
+# -----------------------------------------------------
+if [[ $(tty) == *"pts"* ]]; then
+    fastfetch
+fi

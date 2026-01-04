@@ -1,0 +1,22 @@
+[user]
+    name = Esscraye
+    email = esscrayebat@netcourrier.com
+
+[core]
+    editor = nvim
+    pager = less -R
+
+[init]
+    defaultBranch = main
+
+[push]
+    default = simple
+
+[alias]
+    st = status
+    br = branch
+    ci = commit
+    unstage = reset HEAD --
+    last = log -1 HEAD
+    visual = !gitk
+    tree = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all

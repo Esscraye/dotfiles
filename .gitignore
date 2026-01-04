@@ -1,0 +1,6 @@
+com.ml4w.dotfiles/
+com.ml4w.dotfiles.dev/
+com.esscraye.dotfiles.dev/
+dotfiles/.ssh/
+**/*/99-local
+tmp/

@@ -1,0 +1,123 @@
+#!/usr/bin/env bash
+core=(
+    "base"
+    "base-devel"
+    "linux"
+    "linux-firmware"
+    "grub"
+    "efibootmgr"
+    "networkmanager"
+    "sudo"
+)
+
+general=(
+    "wget"
+    "curl"
+    "git"
+    "rsync"
+    "zip"
+    "unzip"
+    "jq"
+    "flatpak"
+    "vim"
+    "inotify-tools"
+)
+
+packages=(
+    # Hyprland
+    "hyprland"
+    "libnotify"
+    "qt5-wayland"
+    "qt6-wayland"
+    "uwsm"
+    "python-pip"
+    "python-gobject"
+    "python-screeninfo"
+    "nm-connection-editor"
+    "network-manager-applet"
+    "imagemagick"
+    "polkit-gnome"
+    "hyprshade"
+    "grimblast-git"
+    "loupe"
+    "power-profiles-daemon"
+    "pulseaudio"
+    "pavucontrol"
+    # Themes
+    "papirus-icon-theme"
+    "breeze"
+    "matugen-bin"
+    # Fonts
+    "otf-font-awesome"
+    "ttf-firacode-nerd"
+)
+
+hyprland=(
+    "hyprpaper"
+    "hyprlock"
+    "hypridle"
+    "hyprpicker"
+    "xdg-desktop-portal-hyprland"
+)
+
+apps=(
+    "waypaper"
+    "swaync"
+    "ghostty"
+    "wlogout"
+    "mpv"
+    "nwg-dock-hyprland"
+    "waybar"
+    "walker-bin"
+    "nwg-look"
+    "nwg-displays"
+    "pavucontrol"
+    "neovim"
+    "blueman"
+    "qt6ct"
+    "yazi"
+    "zen-browser-bin"
+    "slack-desktop-wayland"
+    "discord"
+    "obs-studio"
+    "localsend-bin"
+    "gimp"
+    "filezilla"
+    "onlyoffice-bin"
+    "keepass"
+    "mysql-workbench"
+)
+
+tools=(
+    "eza"
+    "ripgrep"
+    "python-pywalfox"
+    "xdg-user-dirs"    
+    "xdg-desktop-portal-gtk"    
+    "figlet"
+    "fastfetch"
+    "btop"
+    "xclip"
+    "zsh"
+    "fzf"
+    "bat"
+    "docker"
+    "docker-compose"
+    "docker-buildx"
+    "qemu"
+    "virt-manager"
+    "dnsmasq"
+    "brightnessctl"
+    "tumbler"
+    "slurp"
+    "cliphist"
+    "gvfs"
+    "grim"
+    "asciinema"
+    "cava"
+)
+
+tests=(
+    "zoxide"
+    "anki"
+)

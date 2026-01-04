@@ -1,4 +1,6 @@
-# Configuration Arch Linux avec Hyprland - Configuration Complète
+# Dotfiles pour Hyprland
+
+Une configuration avancée pour le gestionnaire de fenêtres en mosaïque dynamique Hyprland, basée sur les dotfiles ML4W.
 
 ## 🏗️ Structure
 
@@ -16,17 +18,17 @@
 
 ### Prérequis
 1. Arch Linux installé
-2. ML4W Dotfiles installé (https://mylinuxforwork.github.io/dotfiles/)
+2. ML4W Dotfiles installé (disponible sur flathub) : <a href="https://esscraye.github.io/dotfiles-installer/" target="_blank"><img src="https://mylinuxforwork.github.io/dotfiles-installer/dotfiles-installer-badge.png" style="border:0;margin-bottom:10px"></a>
+
 
 ### Installation avec dotinst (Recommandée)
-```bash
-# Cloner ce repository
-git clone <votre-repo> ~/.mydotfiles
-cd ~/.mydotfiles
 
-# Installation avec dotinst (plus propre)
-./setup/setup.sh
+Copiez et collez l'url suivante dans l'installateur ML4W Dotfiles :
+
 ```
+https://raw.githubusercontent.com/esscraye/dotfiles/main/hyprland-dotfiles.dotinst
+```
+
 
 > **💡 Pourquoi dotinst ?**
 > - Installation propre sans conflits
@@ -51,6 +53,6 @@ for script in ~/.mydotfiles/my-personal-config/scripts/*; do
 done
 ```
 
-## Contribution
+## Inspirations
 
 Cette configuration est basée sur la configuration ML4W Dotfiles.
